@@ -11,6 +11,6 @@
 
 //My solution
 
-function joinStrings(string1, string2){
-    return `${string1} ${string2}`
+function joinStrings(str1, str2){
+    return `${str1} ${str2}`
  }
