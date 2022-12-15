@@ -14,7 +14,7 @@ function nameShuffler(str){
     return newName
     
   }
-
+new
   //Best Practice
   function nameSuffle(str){
     return str.split(' ').reverse().join(' ')

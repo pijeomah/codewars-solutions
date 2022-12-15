@@ -12,3 +12,16 @@
 
 //My solution
 const duckDuckGoose = (players, goose) => players[(goose - 1) % players.length].name;
+function duckDuckGoose(players, goose) {
+    for (var i = 0; i < players.length; i++) {
+      if (i === (goose-1) % players.length) {
+        return players[i].name;
+      }
+    }
+  }
+  
+
+  function grow(x){
+    let sorted = x.sort(a+b)
+    sorted.reduce((acc,c) => acc + c,0)
+  }
