@@ -11,19 +11,26 @@
 // first(arr, 0) //=> [];
 
 //My solution
-function first(arr, n) {
-    // return arr;
-    let empty = []
-    if(n == null){
-      return [arr[0]]
-    }else if(n > arr.length){
-             return arr
-             }
+// function first(arr, n) {
+//     // return arr;
+//     let empty = []
+//     if(n == null){
+//       return [arr[0]]
+//     }else if(n > arr.length){
+//              return arr
+//              }
     
-  for(let i = 0; i < n; i++){
-    empty.push(arr[i])
-  }
-    return empty
-  }
+//   for(let i = 0; i < n; i++){
+//     empty.push(arr[i])
+//   }
+//     return empty
+//   }
   
-  
+//   //BEst PRactice
+//   const second = (arr, n=1) => arr.slice(0,n)
+function sumOfDifferences(arr) {
+    arr.sort((a,b) => a-b)
+    return arr
+}
+
+console.log(sumOfDifferences([1, 2, 10]))
