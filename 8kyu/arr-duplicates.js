@@ -5,12 +5,12 @@
 
 
 
-function distinct(a) {
-    let unique =[]
-    a.forEach(el => {
-      if(!unique.includes(el)){
-        unique.push(el)
-      }
-    })
-    return unique;
-  }
+// function distinct(a) {
+//     let unique =[]
+//     a.forEach(el => {
+//       if(!unique.includes(el)){
+//         unique.push(el)
+//       }
+//     })
+//     return unique;
+//   }

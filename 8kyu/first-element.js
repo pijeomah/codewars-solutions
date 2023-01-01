@@ -28,9 +28,3 @@
   
 //   //BEst PRactice
 //   const second = (arr, n=1) => arr.slice(0,n)
-function sumOfDifferences(arr) {
-    arr.sort((a,b) => a-b)
-    return arr
-}
-
-console.log(sumOfDifferences([1, 2, 10]))
