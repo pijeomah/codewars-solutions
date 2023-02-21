@@ -16,4 +16,4 @@
 // "lkj" ==> "literal klingon joke"
 
 //My Solution
-let makeBackronym = string => [...string].map(item => dict[item.toUpperCase()]).join
+let makeBackronym = string => [...string].map(item => dict[item.toUpperCase()]).join(' ')
