@@ -16,6 +16,7 @@
 
 //My solution
 function sameCase(a, b){
+    //check if the state of the string changes when then toUpperCase and toLowerCase methods are applied
     if(a.toLowerCase() === a.toUpperCase()|| b.toLowerCase() === b.toUpperCase()){
       return -1
     }else if(a === a.toUpperCase() && b === b.toUpperCase() || a === a.toLowerCase() && b === b.toLowerCase()){
@@ -23,4 +24,4 @@ function sameCase(a, b){
     }else{
       return 0
     }
-  }
+}
