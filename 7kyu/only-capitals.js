@@ -16,3 +16,4 @@ var capitals = function (word) {
       }
     })
     return empty
+}
