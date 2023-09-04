@@ -12,3 +12,15 @@ function mygcd(x,y){
     }
     return divisor
   }
+
+  //Other solution
+  function mygcd(x,y){
+	let bigNum = Math.max(x, y);
+	let smallNum = Math.min(x, y);
+	let remainder = bigNum % smallNum;
+	if(!remainder){
+		return smallNum;
+	} else {
+		return mygcd(smallNum, remainder)
+	}
+}
