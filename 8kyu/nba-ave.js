@@ -14,13 +14,13 @@
 
 
 //My Solution
-function pointsPer48(ppg, mpg) {
+const pointsPer48 = (ppg, mpg) => {
     let pp48 = (ppg /mpg) * 48
     if(mpg == 0){
       return 0
     }else {
-      let toTenth = pp48.toFixed(1) 
-      return Number(toTenth)
+      let Tenth = pp48.toFixed(1) 
+      return Number(Tenth)
     }
     }
   
