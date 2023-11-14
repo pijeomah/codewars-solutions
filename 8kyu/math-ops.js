@@ -26,6 +26,6 @@
 
 
 //Solution
-function iceBrickVolume(radius, bottleLength, rimLength) {
+const iceBrickVolume = (radius, bottleLength, rimLength) =>{
     return (bottleLength - rimLength) * radius * radius * 2
   }
