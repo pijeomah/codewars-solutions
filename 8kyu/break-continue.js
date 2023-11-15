@@ -40,7 +40,7 @@
 // If you forgot how to push an element to array, please refer to lesson 4.
 
 //My solution
-function grabDoll(dolls){
+const grabDoll = (dolls) => {
     var bag=[];
     for(let i = 0; i < dolls.length;i++){
       if(dolls[i] === "Hello Kitty" || dolls[i] === "Barbie doll"){
