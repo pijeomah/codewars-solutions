@@ -76,7 +76,7 @@
 // splitAndMerge("Hello World!", ",")     ==  "H,e,l,l,o W,o,r,l,d,
 
 //Solution
-function splitAndMerge(string, separator) {
+const splitAndMerge = (string, separator) => {
     let words = string.split(" ")
     let arr = []
     let res = []
