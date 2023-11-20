@@ -6,7 +6,7 @@
 // divisors(13); // should return "13 is prime"
 
 //Solution
-function divisors(integer) {
+const divisors = (integer) => {
     let arr =[]
     for(let i = 2; i<integer; i++){
       if( integer % i == 0){
