@@ -16,7 +16,7 @@
 // Sum of a Sequence [Hard-Core Version]
 
 //My Solution
-const sequenceSum = (begin, end, step) => {
+function sequenceSum(begin, end, step){
     let res = 0
   if(begin >  end){
     return 0
