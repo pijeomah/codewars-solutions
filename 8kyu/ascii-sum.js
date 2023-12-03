@@ -8,9 +8,9 @@
 
 //My solution
 const uniTotal = (string) => {
-    let count = 0 
+    let num = 0 
     for(let i = 0; i < string.length; i++){
-      count += string.charCodeAt(i)
+      num += string.charCodeAt(i)
     }
-      return count
+      return num
     }
