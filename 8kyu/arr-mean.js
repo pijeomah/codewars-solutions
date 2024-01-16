@@ -16,6 +16,6 @@ var findAverage = function (nums) {
     return mean
    }
 //Alt Solution
-var findAverage = function(nums){
-    return nums.reduce((a, b) => a + b, 0) / nums.length;
+var findAverage = function(n){
+    return nums.reduce((a, b) => a + b, 0) / n.length;
   }
