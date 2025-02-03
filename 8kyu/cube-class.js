@@ -9,6 +9,7 @@
 class Cube {
     constructor(side){
       this.setSide(side)
+    //   the constructor calls the setSide function that converts negative ints to positive and sets defualt as 0
     }
     
     getSide() {
