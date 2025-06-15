@@ -14,6 +14,7 @@ class Cube {
     
     getSide() {
       return this.side; 
+    //   returns value for the length set by the setter
     }
     setSide(side = 0) {
      this.side = Math.abs(side);
